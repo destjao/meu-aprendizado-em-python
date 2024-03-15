@@ -1,0 +1,1842 @@
+[
+  {
+    "tag_name": "_IO_EM_DO_00",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "_IO_EM_DO_01",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "_IO_EM_DO_02",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "_IO_EM_DO_03",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "_IO_EM_DO_04",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "_IO_EM_DO_05",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "_IO_EM_DO_06",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "_IO_EM_DI_00",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "_IO_EM_DI_01",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "_IO_EM_DI_02",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "_IO_EM_DI_03",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "_IO_EM_DI_04",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "_IO_EM_DI_05",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "_IO_EM_DI_06",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "_IO_EM_DI_07",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "_IO_EM_DI_08",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "_IO_EM_DI_09",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "_IO_EM_DI_10",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "_IO_EM_DI_11",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "_IO_EM_AI_00",
+    "data_type": "UINT",
+    "alias": true
+  },
+  {
+    "tag_name": "_IO_EM_AI_01",
+    "data_type": "UINT",
+    "alias": true
+  },
+  {
+    "tag_name": "_IO_EM_AI_02",
+    "data_type": "UINT",
+    "alias": true
+  },
+  {
+    "tag_name": "_IO_EM_AI_03",
+    "data_type": "UINT",
+    "alias": true
+  },
+  {
+    "tag_name": "_IO_EM_AO_00",
+    "data_type": "UINT",
+    "alias": true
+  },
+  {
+    "tag_name": "_IO_P1_AI_00",
+    "data_type": "UINT",
+    "alias": true
+  },
+  {
+    "tag_name": "_IO_P1_AI_01",
+    "data_type": "UINT",
+    "alias": true
+  },
+  {
+    "tag_name": "_IO_P2_AO_00",
+    "data_type": "UINT",
+    "alias": true
+  },
+  {
+    "tag_name": "_IO_P2_AO_01",
+    "data_type": "UINT",
+    "alias": true
+  },
+  {
+    "tag_name": "BotaoLocRemIHM",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "LocalAcionado",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "Bot_Loc_Rem",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "Calib_Zero",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "Calib_Estat",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "Run",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "Modo_Local",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "LigaInversor",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "LocalIHM",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "Calib_Setup",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "LigaPID",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "TaraOK",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "CalibOK",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "LigaDesligaIHM",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "ModoCalib",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "ClearTot",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "Bot_Limpar_Tot",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "Total_Amostra",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "Pulse_Tot",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "AutomaticoPID",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "SlotEncoder",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "INTERLOCK",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "POSTA_EM_MARCHA",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "Liga_Desliga_LOC_IHM",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "ENABLED_COM",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "DesligaPostaEmMarcha",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "ModoPID",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "InversorNoLigou",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "ResetFalhas",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "ResetTempTot",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "ResetIntegra",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "NewVariable",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "control_mode",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "DirectMode",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "LIGA_FILTRO",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "DEFINIR_FILTRO",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "Calib_Filter",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "HAB_ALRM",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "InversorLigado",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "Liga_Desliga_IHM",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "OFF",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "corrrentecalibra",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "tonkg",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "teste",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "FECHADO",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "GCMNaofuncionando",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "error",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "LH1",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "LW1",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "LW2",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "LH2",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "LW3",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "LH3",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "LH4",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "LW5",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "LW4",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "LH5",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "LH6",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "LW6",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "LH7",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "LW7",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "LH8",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "LW8",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "LW9",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "LH9",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "LH10",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "LW10",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "BELT_INDEX_FAIL",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "ModoBeltIndex",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "ManualDCcontrol",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "Calib_Index",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "Calib_Index_OFF",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "LigaCalib",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "DesligaCalib",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "OKINDEX",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "OKINDEX1",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "OKINDEX2",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "OKINDEX3",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "OKINDEX4",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "OKINDEX5",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "OKINDEX6",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "OKINDEX7",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "OKINDEX9",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "OKINDEX8",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "OKINDEX10",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "FALHAINDEX",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "RESETINDEX",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "usemot",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "AlarmLow",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "AlarmHigh",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "ControleManual",
+    "data_type": "BOOL",
+    "alias": true
+  },
+  {
+    "tag_name": "COMP_COMM_VIVO",
+    "data_type": "INT",
+    "alias": true
+  },
+  {
+    "tag_name": "t_totINT",
+    "data_type": "INT",
+    "alias": true
+  },
+  {
+    "tag_name": "errorID",
+    "data_type": "UINT",
+    "alias": true
+  },
+  {
+    "tag_name": "LoadCell",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "Calib_Zero_Raw",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "Calib_Estatic_Raw",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "LoadCell_Tara",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "Peso_Calib_Kg",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "Calib_Estatic_Tara",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "Pre_NetWeight",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "NetWeight",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "BridgeFactor",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "Span",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "Correcao",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "NetWeight_Corrigido",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "WeighDeckLenght",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "BeltLoad",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "BeltSpeed",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "MassFlow",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "SetPointTotal",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "AuxSetPoint",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "SetPoint",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "ValorPID",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "LoadCellB1",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "MassFlowB2",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "MotorSpeed",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "Ajuste_Belt_Speed",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "SC_RAW",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "DriveCommand",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "TotalMassFlow",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "ComparaSPMFT",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "TotalMassFlowTESTE",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "Kc",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "Ti",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "Td",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "SetPointTotalTeste",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "CVManual",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "Totalizer",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "SetPoint_Calib",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "Pulse_Value",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "CorrenteIHM",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "TempoIHM",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "TempoIHMSeg",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "TotalizadorCalculado",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "BeltSpeedteste",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "PesoTotalCorrente",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "NovoSpan",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "ErroSpanIHM",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "MassFlowB2teste",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "EntradaTesteSP",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "CurrentRate",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "CalibSpd",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "MaxRate",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "SC_REAL",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "Aux_RealGeral",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "AuxReal2",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "TotalizadorAnterior",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "SetPointPIDLocal",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "PesoKgEstatico",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "TotalizadoPermanente",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "SetPointDefinido",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "AIRAW_FILTER",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "ajuste_bspeed",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "xres1",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "IHM_SETPOINT",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "PrRpmMaxVFD",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "BeltSpeedMIN",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "Capacidade",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "SP",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "CargaPorSeg",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "PesoTotalCorrente_MEM",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "tempo_amostra",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "amostra",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "SetPointAmostra",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "SetPointFluxoCalib",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "AuxLConvertCC",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "TotalizadorPorms",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "AuxPesoTotalChain",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "NetWeightMnp",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "CTU_REAL",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "PulsosTotal",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "Posicao",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "PosicaoAtual",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "PesoPosicao1",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "PesoPosicao2",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "PesoPosicao4",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "PesoPosicao3",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "RaioTambor",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "CompTambor",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "CompCoreria",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "Npulsos",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "t_totFLO",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "Escrevi",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "RPM",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "teste1",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "teste2",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "msparaseg",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "resultadoms",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "resultadoseg",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "PesoReal",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "AuxCalculoSpan",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "Erro",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "NovoSpanAux",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "AuxCalculoSpanReal",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "ErroReal",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "NovoSpanAuxReal",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "NovoSpanReal",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "ErroSpanIHMReal",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "AuxPesoReal",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "MTOT",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "currentmotor",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "MotorSpeedReal",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "RPMINV",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "PesoPosicao9",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "PesoPosicao7",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "PesoPosicao8",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "PesoPosicao6",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "PesoPosicao5",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "PesoPosicao1LH",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "Posicao1High",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "Posicao2High",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "PesoPosicao2LH",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "PesoPosicao3LH",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "Posicao3High",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "PesoPosicao4LH",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "Posicao4High",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "PesoPosicao5LH",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "Posicao5High",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "PesoPosicao1LL",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "PesoPosicao2LL",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "PesoPosicao3LL",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "PesoPosicao4LL",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "PesoPosicao5LL",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "Posicao1Low",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "Posicao2Low",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "Posicao3Low",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "Posicao4Low",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "Posicao5Low",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "PPLH1",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "PPLW1",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "PPLH2",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "PPLH3",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "PPLW3",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "PPLW2",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "PP2",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "PP3",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "PP4",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "PesoPosicao10",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "PesoPosicao0",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "P0H",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "P0LH",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "P1H",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "P1LH",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "P2H",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "P2LH",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "accreal",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "P4L",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "P5L",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "P3L",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "P2L",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "P1LW",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "P0L",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "P1L",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "P0LW",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "P2LW",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "P3LW",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "P4LW",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "P5LW",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "P5LH",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "P5H",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "P4LH",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "P3LH",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "P4H",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "P3H",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "P6LH",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "P6LW",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "P7LH",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "P7LW",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "P8LH",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "P8LW",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "P9LH",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "P9LW",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "P10L",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "P9L",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "P8L",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "P7L",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "P6L",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "P10LW",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "P6H",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "P7H",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "P8H",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "P9H",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "P10H",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "P10LH",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "DC",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "DCpercent",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "DriveControl",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "PLS",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "PLS10",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "PS10",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "PS1",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "PS2",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "PS3",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "PS4",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "PS0",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "PS5",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "PS6",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "PS7",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "PS8",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "PS9",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "DEFFILTER",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "V",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "MME",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "QuantasVoltas",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "LowerLimit",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "UpperLimit",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "LimiteCelula",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "ErroPositivo",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "Capacidade_Ton",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "HISTORIC",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "localtot",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "remototot",
+    "data_type": "REAL",
+    "alias": true
+  },
+  {
+    "tag_name": "PulsosTotalINT",
+    "data_type": "DINT",
+    "alias": true
+  },
+  {
+    "tag_name": "PPLW5",
+    "data_type": "DINT",
+    "alias": true
+  },
+  {
+    "tag_name": "PPLH5",
+    "data_type": "DINT",
+    "alias": true
+  },
+  {
+    "tag_name": "PPLW4",
+    "data_type": "DINT",
+    "alias": true
+  },
+  {
+    "tag_name": "PPLH4",
+    "data_type": "DINT",
+    "alias": true
+  },
+  {
+    "tag_name": "LIM1",
+    "data_type": "DINT",
+    "alias": true
+  },
+  {
+    "tag_name": "FaixaParaAlarmeDeIndex",
+    "data_type": "DINT",
+    "alias": true
+  },
+  {
+    "tag_name": "outmask",
+    "data_type": "UDINT",
+    "alias": true
+  },
+  {
+    "tag_name": "hpout",
+    "data_type": "UDINT",
+    "alias": true
+  },
+  {
+    "tag_name": "lpout",
+    "data_type": "UDINT",
+    "alias": true
+  },
+  {
+    "tag_name": "tempo_teste",
+    "data_type": "UDINT",
+    "alias": true
+  },
+  {
+    "tag_name": "tempodeamostra",
+    "data_type": "UDINT",
+    "alias": true
+  },
+  {
+    "tag_name": "Accumulator",
+    "data_type": "LINT",
+    "alias": true
+  },
+  {
+    "tag_name": "acc",
+    "data_type": "LINT",
+    "alias": true
+  },
+  {
+    "tag_name": "ofsetting",
+    "data_type": "LINT",
+    "alias": true
+  },
+  {
+    "tag_name": "ufsetting",
+    "data_type": "LINT",
+    "alias": true
+  },
+  {
+    "tag_name": "hpsetting",
+    "data_type": "LINT",
+    "alias": true
+  },
+  {
+    "tag_name": "lpsetting",
+    "data_type": "LINT",
+    "alias": true
+  },
+  {
+    "tag_name": "acchsc",
+    "data_type": "LINT",
+    "alias": true
+  },
+  {
+    "tag_name": "ModoLR_str",
+    "data_type": "SHORT_STRING",
+    "alias": true
+  },
+  {
+    "tag_name": "ModoLR_str_PanelV",
+    "data_type": "SHORT_STRING",
+    "alias": true
+  },
+  {
+    "tag_name": "TempoParaFimDef",
+    "data_type": "SHORT_STRING",
+    "alias": true
+  },
+  {
+    "tag_name": "NET_05_N01_I",
+    "data_type": "INT",
+    "alias": true
+  },
+  {
+    "tag_name": "NET_05_N01_O",
+    "data_type": "INT",
+    "alias": true
+  },
+  {
+    "tag_name": "NET_CONTROL_PLC",
+    "data_type": "INT",
+    "alias": true
+  },
+  {
+    "tag_name": "TAB_INT_MASSFLOW",
+    "data_type": "UINT",
+    "alias": true
+  },
+  {
+    "tag_name": "TotalizaKG",
+    "data_type": "REAL",
+    "alias": true
+  }
+]
