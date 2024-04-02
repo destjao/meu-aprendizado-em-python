@@ -31,9 +31,9 @@
 
 # print(l)
 
-def minha_funcao(**kwargs):
-    for chave, valor in kwargs.items():
-        print(f'A chave é {chave} e o valor é {valor}')
+# def minha_funcao(**kwargs):
+#     for chave, valor in kwargs.items():
+#         print(f'A chave é {chave} e o valor é {valor}')
 
 # minha_funcao(nome= 'João', idade= 25)
 # minha_funcao(nome= 'Lucas', idade= 18)
@@ -232,5 +232,38 @@ def minha_funcao(**kwargs):
 #         even_squares.append(x**2)
 # print(even_squares)
 
-even_squares = [x**2 for x in range(10) if x % 2 == 0]
-print(even_squares)
+# even_squares = [x**2 for x in range(10) if x % 2 == 0]
+# print(even_squares)
+
+# import time
+# c = 0
+# while True:
+#     c += 1
+#     print(c)
+#     time.sleep(1)
+
+# Código para simular a perda de peso de um silo
+
+# Simulação de perda de peso em um silo
+import random
+
+# Classe representando o Silo
+class Silo:
+    def __init__(self, capacidade_maxima):
+        self.capacidade_maxima = capacidade_maxima
+        self.peso_atual = capacidade_maxima  # inicialmente o silo está cheio
+
+    # Método para simular a perda de peso no silo
+    def perda_de_peso(self):
+        # A perda de peso será uma pequena porcentagem do peso atual
+        perda = self.peso_atual * random.uniform(0.005, 0.01)  # perda entre 0.5% e 1% do peso atual
+        self.peso_atual -= perda
+        return perda
+
+# Criando um objeto Silo com capacidade máxima de 10000 kg
+silo = Silo(10000)
+
+# Simulando a perda de peso ao longo de um período (por exemplo, 5 dias)
+for dia in range(1, 6):
+    perda = silo.perda_de_peso()
+    print(f"Dia {dia}: Perda de {perda:.2f} kg, Peso atual no silo: {silo.peso_atual:.2f} kg")
