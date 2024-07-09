@@ -242,28 +242,132 @@
 #     print(c)
 #     time.sleep(1)
 
-# Código para simular a perda de peso de um silo
+# # Código para simular a perda de peso de um silo
 
-# Simulação de perda de peso em um silo
-import random
+# # Simulação de perda de peso em um silo
+# import random
 
-# Classe representando o Silo
-class Silo:
-    def __init__(self, capacidade_maxima):
-        self.capacidade_maxima = capacidade_maxima
-        self.peso_atual = capacidade_maxima  # inicialmente o silo está cheio
+# # Classe representando o Silo
+# class Silo:
+#     def __init__(self, capacidade_maxima):
+#         self.capacidade_maxima = capacidade_maxima
+#         self.peso_atual = capacidade_maxima  # inicialmente o silo está cheio
 
-    # Método para simular a perda de peso no silo
-    def perda_de_peso(self):
-        # A perda de peso será uma pequena porcentagem do peso atual
-        perda = self.peso_atual * random.uniform(0.005, 0.01)  # perda entre 0.5% e 1% do peso atual
-        self.peso_atual -= perda
-        return perda
+#     # Método para simular a perda de peso no silo
+#     def perda_de_peso(self):
+#         # A perda de peso será uma pequena porcentagem do peso atual
+#         perda = self.peso_atual * random.uniform(0.005, 0.01)  # perda entre 0.5% e 1% do peso atual
+#         self.peso_atual -= perda
+#         return perda
 
-# Criando um objeto Silo com capacidade máxima de 10000 kg
-silo = Silo(10000)
+# # Criando um objeto Silo com capacidade máxima de 10000 kg
+# silo = Silo(10000)
 
-# Simulando a perda de peso ao longo de um período (por exemplo, 5 dias)
-for dia in range(1, 6):
-    perda = silo.perda_de_peso()
-    print(f"Dia {dia}: Perda de {perda:.2f} kg, Peso atual no silo: {silo.peso_atual:.2f} kg")
+# # Simulando a perda de peso ao longo de um período (por exemplo, 5 dias)
+# for dia in range(1, 6):
+# #     perda = silo.perda_de_peso()
+# #     print(f"Dia {dia}: Perda de {perda:.2f} kg, Peso atual no silo: {silo.peso_atual:.2f} kg")
+# def add(x, y):
+#     return x + y
+
+# def subtract(x, y):
+#     return x - y
+
+# def multiply(x, y):
+#     return x * y
+
+# def divide(x, y):
+#     if y == 0:
+#         return "Error: Division by zero is not allowed."
+#     else:
+#         return x / y
+
+# print("Welcome to the Python Calculator!")
+
+# while True:
+#     print("Select an operation:")
+#     print("1. Addition")
+#     print("2. Subtraction")
+#     print("3. Multiplication")
+#     print("4. Division")
+#     print("5. Exit")
+
+#     choice = input("Enter your choice (1-5): ")
+
+#     if choice == '5':
+#         print("Thank you for using the Python Calculator!")
+#         break
+
+#     num1 = float(input("Enter the first number: "))
+#     num2 = float(input("Enter the second number: "))
+
+#     if choice == '1':
+#         result = add(num1, num2)
+#         print(f"{num1} + {num2} = {result}")
+#     elif choice == '2':
+#         result = subtract(num1, num2)
+#         print(f"{num1} - {num2} = {result}")
+#     elif choice == '3':
+#         result = multiply(num1, num2)
+#         print(f"{num1} * {num2} = {result}")
+#     elif choice == '4':
+#         result = divide(num1, num2)
+#         print(f"{num1} / {num2} = {result}")
+#     else:
+#         print("Invalid choice. Please try again.")
+from pycomm3 import LogixDriver
+import pandas as pd
+
+# PLC connection parameters
+PLC_IP = '192.168.1.10'
+PLC_SLOT = 0
+
+# Tag to read from PLC
+TAG_NAME = 'MyTag'
+
+# EMA parameters
+EMA_SPAN = 10  # Adjust this value as needed
+
+def calculate_ema(data, span):
+    """
+    Calculate the Exponential Moving Average (EMA) for a given data series.
+    
+    Args:
+        data (pandas.Series): The input data series.
+        span (int): The span or window size for the EMA calculation.
+        
+    Returns:
+        pandas.Series: The EMA series.
+    """
+    return data.ewm(span=span, adjust=False).mean()
+
+def main():
+    # Connect to the PLC
+    plc = LogixDriver(f'{PLC_IP}/{PLC_SLOT}')
+    plc.open()
+    print(f'Connected to PLC at {PLC_IP}')
+
+    # Read initial data from the PLC
+    data = [plc.read(TAG_NAME)]
+
+    try:
+        while True:
+            # Read the latest value from the PLC
+            new_value = plc.read(TAG_NAME)
+            data.append(new_value)
+
+            # Calculate the EMA
+            data_series = pd.Series(data)
+            ema_series = calculate_ema(data_series, EMA_SPAN)
+            latest_ema = ema_series.iloc[-1]
+
+            # Print the latest value and EMA
+            print(f'Latest value: {new_value}, EMA: {latest_ema}')
+
+    except KeyboardInterrupt:
+        print('Exiting...')
+    finally:
+        plc.close()
+
+if __name__ == '__main__':
+    main()
